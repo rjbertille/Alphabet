@@ -1,0 +1,40 @@
+:root {
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:10px;
+}
+
+span {
+    padding:var(--spacing);
+    color:var(--base);
+    filter:blur(var(--blur));
+    width:30px;
+    height:30px;
+    text-align:center;
+}
+
+
+.h1 {
+   color:var(--base);
+}
+input {
+    width:100px;
+}
+
+
+body {
+    color:#000;
+    font-family:'helvetica neue',sans-serif;
+    font-weight:50;
+    font-size:50px;
+}
+
+h2 {
+    text-align:center;
+}
+
+.content {
+    margin-bottom:50px;
+}
+
+
